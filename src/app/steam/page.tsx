@@ -1,10 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-export default function Home() {
+import React from 'react'
+
+const SteamPage = () => {
   return (
-    <main className={styles.main}>
-      <h1>hello word!</h1>
-    </main>
-  );
+    <div>steam</div>
+  )
 }
+
+export default SteamPage

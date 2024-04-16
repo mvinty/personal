@@ -1,10 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import React from 'react'
 
-export default function Home() {
+const SpotifyPage = () => {
   return (
-    <main className={styles.main}>
-      <h1>hello word!</h1>
-    </main>
-  );
+    <div>spotify</div>
+  )
 }
+
+export default SpotifyPage
