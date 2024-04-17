@@ -7,7 +7,7 @@ const SpotifyPage = () => {
   return (
     <>
       <NavBar></NavBar>
-      What I'm listening to on Spotify Page
+      <p>What I am listening to on Spotify Page</p>
     </>
   )
 }
