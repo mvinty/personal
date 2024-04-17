@@ -5,7 +5,10 @@ import NavBar from "../components/NavBar";
 
 const SpotifyPage = () => {
   return (
-    <NavBar></NavBar>
+    <>
+      <NavBar></NavBar>
+      What I'm listening to on Spotify Page
+    </>
   )
 }
 

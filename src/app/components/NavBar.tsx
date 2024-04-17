@@ -20,8 +20,8 @@ const NavBar = () => {
             </Link>
           </li>
           <li >
-            <Link className={`link ${page === '/steam' ? 'active' : ''}`} href="/steam">
-              <p>Steam</p>
+            <Link className={`link ${page === '/games' ? 'active' : ''}`} href="/games">
+              <p>Games</p>
               </Link>
           </li>
         </ul>

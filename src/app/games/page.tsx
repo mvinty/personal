@@ -5,7 +5,13 @@ import React from 'react'
 
 const SteamPage = () => {
   return (
+    <>
     <NavBar></NavBar>
+    My favorite games at the moment 
+    </>
+    
+    
+
   )
 }
 
