@@ -30,7 +30,7 @@ const data = [
   {
     title: 'Helldivers 2',
     artist: '',
-    img: '/divers.png'
+    img: './divers.png'
   },
 
 ]

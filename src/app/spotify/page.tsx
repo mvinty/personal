@@ -30,27 +30,27 @@ const data = [
   {
     title: 'Janey Girl',
     artist: 'by 10:01',
-    img: '/janey.png'
+    img: './janey.png'
   },
   {
     title: 'rain bird interlude',
     artist: 'by CODE KUNST',
-    img: '/bird.png'
+    img: './bird.png'
   },
   {
     title: 'Feel It',
     artist: 'by d4vd',
-    img: '/feel.png'
+    img: './feel.png'
   },
   {
     title: 'Moving Out',
     artist: 'by Vacations',
-    img: '/moving.png'
+    img: './moving.png'
   },
   {
     title: 'only u',
     artist: 'by Karri',
-    img: '/only.png'
+    img: './only.png'
   },
 ]
 
