@@ -2,6 +2,9 @@ body {
     background-color: #00274C;
     color: white;
     padding: 1em;
+    padding-bottom: 75px;
+
+    animation: transition 1s ease-out;
 }
 .nav {
     position: fixed;
@@ -11,7 +14,7 @@ body {
     width: 100%;
     background-color: #EFF0F1;
     box-shadow: 0px 0px 4px black; 
-}
+} 
 
 
 .nav ul {
@@ -61,3 +64,46 @@ button:hover {
     background: #FFCB05;
     color: #00274C;
 }
+
+h1{
+    animation: leftSlide 3s ease-out;
+}
+
+@keyframes leftSlide {
+    from   { 
+    transform: translateX(-100%); 		
+    }
+    to { 
+    transform: translateX(0%); 
+    }
+   }
+
+   @keyframes transition {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+   }
+
+   @media (prefers-reduced-motion) {
+    h1 {
+        animation: none;
+    }
+    body{
+        animation: none; 
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+   /*       Tablet View       */
+
+  }
+
+  @media only screen and (min-width: 1200px) {
+    /*       Desktop View       */
+
+  }
