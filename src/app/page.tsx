@@ -13,7 +13,7 @@ export default function Home() {
         <DownloadBTN/>
         <h2>About me</h2>
         <div className="imageContainer">
-          <Image src="../public/me.png" 
+          <Image src="./me.png" 
             alt="Image of me"
             width={300}
             height={300}
